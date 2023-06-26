@@ -75,3 +75,7 @@ body {
   font-family: Lato;
   font-weight: 100;
 }
+
+.container .main-content {
+  display: flex;
+}
