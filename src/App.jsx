@@ -1,33 +1,55 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Loader } from './components/Loader'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="page">
+        {/* Main content */}
+        <section className='container'>
+          <nav className="navbar">
+            <div className="navbar-content">
+              <img src="" alt="" />
+              <ul>
+                <li><a href="/">EXCLUSIVOS</a></li>
+                <li><a href="/">NUEVOS</a></li>
+                <li><a href="/">GIFT CARD</a></li>
+                <li><a href="/">FIND A STORE</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <section className='main-content'>
+            <p>Diseña tu</p>
+            <h1>Súper Héroe</h1>
+            <p>Aquí podrás dar rienda suelta a tu creatividad y construir tu propio superhéroe LEGO personalizado. Nuestro sitio ofrece una amplia gama de opciones exclusivas y los últimos lanzamientos de LEGO. ¡Prepárate para sumergirte en el mundo de la construcción y la imaginación con LEGO!</p>
+          </section>
+
+          <section className='side-content'>
+            <p>Superman</p>
+            <img src="" alt="" />
+            <div></div>
+          </section>
+
+          <section>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+            <div>
+              <img src="" alt="" />
+            </div>
+          </section>
+        </section>
+        {/* Loader */}
+        <section className="loader">
+          <Loader />
+        </section>
+        {/* Modal */}
+        <section></section>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
