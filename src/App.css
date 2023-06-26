@@ -79,4 +79,6 @@ body {
 .container .main-content {
   display: flex;
   flex-direction: column;
+  grid-area: section;
+  align-items: center;
 }
