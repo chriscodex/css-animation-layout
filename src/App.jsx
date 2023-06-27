@@ -32,15 +32,15 @@ function App() {
             <img src="https://i.ibb.co/x16pz1x/super-man.png" alt="superman" />
           </section>
 
-          <section>
+          <section className='footer'>
             <div>
-              <img src="" alt="" />
+              <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="spiderman" />
             </div>
             <div>
-              <img src="" alt="" />
+              <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="robin" />
             </div>
             <div>
-              <img src="" alt="" />
+              <img src="https://i.ibb.co/M18p91c/batman.webp" alt="" />
             </div>
           </section>
         </section>
