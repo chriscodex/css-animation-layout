@@ -35,13 +35,14 @@ body {
 .container .navbar {
   background-color: bisque;
   grid-area: nav;
+  display: flex;
 }
 
 .container .navbar-content {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 20px 0 0 80px;
+  padding: 0px 0 0 80px;
 
   animation-name: navbar;
   animation-duration: 2s;
@@ -85,7 +86,7 @@ body {
 
 .container .main-content {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   padding: 20px 0 0 80px;
 
@@ -96,9 +97,25 @@ body {
 }
 @keyframes main-content {
   0% {
-    transform: translateY(-200px);
+    transform: translateY(-600px);
   }
   100% {
     transform: translateY(0px);
   }
+}
+
+.container .main-content p:first-child {
+  font-size: 36px;
+  font-weight: 300;
+  margin: 0 0 -14px 43px;
+}
+.container .main-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 28px 0;
+}
+.container .main-content p:last-child {
+  font-weight: 100;
+  margin: 0;
+  width: 60%;
 }
