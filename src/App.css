@@ -119,3 +119,11 @@ body {
   margin: 0;
   width: 60%;
 }
+
+.container .side-content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  grid-area: aside;
+  background-color: #ffd602;
+}

@@ -28,7 +28,7 @@ function App() {
 
           <section className='side-content'>
             <p>Superman</p>
-            <img src="" alt="" />
+            <img src="https://i.ibb.co/x16pz1x/super-man.png" alt="superman" />
             <div></div>
           </section>
 
