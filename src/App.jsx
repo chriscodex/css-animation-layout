@@ -1,17 +1,19 @@
+import { useContext } from 'react';
 import { Loader } from './components/Loader';
 import { ModalSpiderman } from './components/Modals/Spiderman';
+import { Modal } from './components/Modals/Modal';
+import { Footer } from './components/Footer';
 import { AppContext } from './context';
 import './App.css';
-import { useContext } from 'react';
 
 function App() {
-  const {openModal} = useContext(AppContext)
-  
+  const { openModalSpiderman } = useContext(AppContext);
+
   return (
     <>
       <div className="page">
         {/* Main content */}
-        {console.log(openModal)}
+        {console.log(openModalSpiderman)}
         <section className="container">
           <nav className="navbar">
             <div className="navbar-content">
@@ -71,7 +73,13 @@ function App() {
           <Loader />
         </section>
         {/* Modal */}
-        <section>{<ModalSpiderman />}</section>
+        <section>
+          {openModalSpiderman && (
+            <Modal>
+              <ModalSpiderman />
+            </Modal>
+          )}
+        </section>
       </div>
     </>
   );
