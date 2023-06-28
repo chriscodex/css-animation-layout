@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap');
+
 :root{
   --yellow: #ffd602;
   --red: #d5040a;
@@ -27,4 +29,30 @@ body {
   grid-template-areas: "nav aside" "section aside" "footer aside";
   height: 100%;
   width: 100%;
+}
+
+/* NavBar */
+.container .navbar {
+  background-color: bisque;
+  grid-area: nav;
+}
+
+.container .navbar-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0 0 80px;
+
+  animation-name: navbar;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+}
+@keyframes navbar {
+  0% {
+    transform: translateY(-200px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
