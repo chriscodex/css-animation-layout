@@ -6,10 +6,11 @@ function App() {
     <>
       <div className="page">
         {/* Main content */}
+        {console.log('yara mano')}
         <section className='container'>
           <nav className="navbar">
             <div className="navbar-content">
-              <img src="" alt="" />
+              <img src="/src/assets/lego.png" alt="lego-icon" />
               <ul>
                 <li><a href="/">EXCLUSIVOS</a></li>
                 <li><a href="/">NUEVOS</a></li>
