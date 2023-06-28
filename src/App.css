@@ -198,3 +198,11 @@ body {
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
+@keyframes footer {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
