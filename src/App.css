@@ -206,3 +206,12 @@ body {
     transform: translateY(0px);
   }
 }
+
+.container .footer div {
+  background-color: var(--blue);
+  width: 130px;
+  height: 50%;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+}
