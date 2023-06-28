@@ -182,3 +182,12 @@ body {
   background-color: var(--yellow);
   height: 100%;
 }
+
+.container .footer {
+  background-color: var(--yellow);
+  grid-area: footer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  border-radius: 0 80px 0 0;
+}
