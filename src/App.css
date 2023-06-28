@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap');
 
 :root{
   --yellow: #ffd602;
@@ -11,6 +12,7 @@ body {
   height: 100vh;
   width: 100%;
   overflow: hidden;
+  font-family: Montserrat;
 }
 
 .page {
@@ -33,7 +35,7 @@ body {
 
 /* NavBar */
 .container .navbar {
-  background-color: bisque;
+  background-color: var(--yellow);
   grid-area: nav;
   display: flex;
 }
@@ -74,7 +76,7 @@ body {
   text-decoration: none;
   color: var(--red);
   font-family: Lato;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .container .main-content {
@@ -115,7 +117,7 @@ body {
   margin: 0 0 28px 0;
 }
 .container .main-content p:last-child {
-  font-weight: 100;
+  font-weight: 300;
   margin: 0;
   width: 60%;
 }
@@ -125,7 +127,6 @@ body {
   grid-template-columns: repeat(6, 1fr);
   align-items: center;
   grid-area: aside;
-  background-color: #ffd602;
 }
 
 .container .side-content p {
@@ -148,4 +149,35 @@ body {
   100% {
     opacity: 1;
   }
+}
+
+.container .side-content img {
+  grid-row: 1 / 2;
+  grid-column: 2 / 6;
+  width: 100%;
+
+  transform: translateY(800px);
+  animation-name: side-content-img;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes side-content-img {
+  0% {
+    transform: translateY(800px);
+  }
+  70% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.container .side-content div {
+  grid-row: 1 / 2;
+  grid-column: 4 / 7;
+  background-color: var(--yellow);
+  height: 100%;
 }
