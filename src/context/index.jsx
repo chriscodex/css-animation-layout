@@ -1,9 +1,15 @@
-import { createContext } from 'react';
+import { createContext, useState } from 'react';
 
-const context = createContext();
+const AppContext = createContext();
 
-const ContextProvider = ({ children }) => {
-  return <context.Provider>{children}</context.Provider>;
+const AppContextProvider = ({ children }) => {
+  const [openModalSpiderman, setOpenModalSpiderman] = useState(false);
+
+  return (
+    <AppContext.Provider value={{ openModalSpiderman, setOpenModalSpiderman }}>
+      {children}
+    </AppContext.Provider>
+  );
 };
 
-export { context, ContextProvider };
+export { AppContext, AppContextProvider };
