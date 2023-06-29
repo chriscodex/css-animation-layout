@@ -1,11 +1,7 @@
-import './styles.css'
+import './styles.css';
 
 function ModalSpiderman() {
-  return (
-    <div className='modal-spiderman'>
-      
-    </div>
-  )
+  return <div className="modal-spiderman"></div>;
 }
 
-export { ModalSpiderman }
+export { ModalSpiderman };
