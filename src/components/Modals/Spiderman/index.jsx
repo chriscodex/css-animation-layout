@@ -18,6 +18,9 @@ function ModalSpiderman() {
           alt="close"
           onClick={() => closeSpidermanModal()}
         />
+        <div className='modal-content-slider'>
+    
+        </div>
       </div>
     </div>
   );
