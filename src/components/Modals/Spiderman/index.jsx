@@ -18,8 +18,11 @@ function ModalSpiderman() {
           alt="close"
           onClick={() => closeSpidermanModal()}
         />
-        <div className='modal-content-slider'>
-    
+        <div className='modal__content--slider'>
+          <input type="radio" name='slider-1' id='radio-1' checked/>
+          <input type="radio" name='slider-2' id='radio-2'/>
+          <input type="radio" name='slider-3' id='radio-3'/>
+
         </div>
       </div>
     </div>
