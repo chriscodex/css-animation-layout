@@ -26,14 +26,20 @@ function ModalRobin() {
           <div className="cards">
             <label htmlFor="radio-1" id="card-1" className="card">
               <img
+                src="/src/assets/Carrousel/robin.png"
+                alt="Robin"
               />
             </label>
             <label htmlFor="radio-2" id="card-2" className="card">
               <img
+                src="https://i.ibb.co/Xzsdvgg/robin.png"
+                alt="Robin"
               />
             </label>
             <label htmlFor="radio-3" id="card-3" className="card">
               <img
+                src="https://www.pngkit.com/png/full/116-1167749_robin-heroes-lego-batman-superman.png"
+                alt="Robin"
               />
             </label>
           </div>
