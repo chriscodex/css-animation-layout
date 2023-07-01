@@ -23,14 +23,14 @@ function ModalSpiderman() {
           <input type="radio" name='slider-2' id='radio-2'/>
           <input type="radio" name='slider-3' id='radio-3'/>
 
-          <div className='card'>
-            <label htmlFor="radio-1" className='card-1'>
+          <div className='modal-spiderman__cards'>
+            <label htmlFor="radio-1" id='card-1' className='modal-spiderman__card'>
               <img src="" alt="" />
             </label>
-            <label htmlFor="radio-2" className='card-2'>
+            <label htmlFor="radio-2" id='card-2' className='modal-spiderman__card'>
               <img src="" alt="" />
             </label>
-            <label htmlFor="radio-3" className='card-3'>
+            <label htmlFor="radio-3" id='card-3' className='modal-spiderman__card'>
               <img src="" alt="" />
             </label>
           </div>
