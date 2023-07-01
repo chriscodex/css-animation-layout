@@ -69,6 +69,11 @@ function App() {
               <ModalRobin />
             </Modal>
           )}
+          {openModalBatman && (
+            <Modal>
+              <ModalBatman />
+            </Modal>
+          )}
         </section>
       </div>
     </>
