@@ -22,4 +22,5 @@
 .modal__content--slider {
   width: 300px;
   height: 200px;
+  transform-style: preserve-3d;
 }
