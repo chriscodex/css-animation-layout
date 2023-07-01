@@ -10,18 +10,18 @@ function ModalSpiderman() {
   };
 
   return (
-    <div className="modal-spiderman">
+    <div className="modal">
       <div className="modal-content">
         <img
-          className="modal-spiderman--close"
+          className="modal-content--close"
           src="/src/assets/close.svg"
           alt="close"
           onClick={() => closeSpidermanModal()}
         />
         <div className="modal__content--slider">
-          <input type="radio" name="slider-1" id="radio-1" checked />
-          <input type="radio" name="slider-1" id="radio-2" checked />
-          <input type="radio" name="slider-1" id="radio-3" checked />
+          <input type="radio" name="slider-1" id="radio-1" defaultChecked />
+          <input type="radio" name="slider-1" id="radio-2" />
+          <input type="radio" name="slider-1" id="radio-3" />
 
           <div className="cards">
             <label htmlFor="radio-1" id="card-1" className="card">
