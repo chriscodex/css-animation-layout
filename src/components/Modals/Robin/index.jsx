@@ -10,10 +10,10 @@ function ModalRobin() {
   };
 
   return (
-    <div className="modal-spiderman">
+    <div className="modal">
       <div className="modal-content">
         <img
-          className="modal-spiderman--close"
+          className="modal-content--close"
           src="/src/assets/close.svg"
           alt="close"
           onClick={() => closeRobinModal()}
