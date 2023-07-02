@@ -1,6 +1,5 @@
 import { useContext } from 'react';
 import { AppContext } from '../../../context';
-import './styles.css';
 
 function ModalRobin() {
   const { setOpenModalRobin } = useContext(AppContext);
