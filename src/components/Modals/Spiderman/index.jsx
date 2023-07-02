@@ -44,6 +44,7 @@ function ModalSpiderman() {
             </label>
           </div>
         </div>
+        <button className="modal__button">Comprar</button>
       </div>
     </div>
   );
