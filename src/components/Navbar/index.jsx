@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-content">
-        <img src="/src/assets/lego.png" alt="lego-icon" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/2048px-LEGO_logo.svg.png" alt="lego-icon" />
         <ul>
           <li>
             <a href="/">EXCLUSIVOS</a>
