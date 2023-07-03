@@ -1,5 +1,7 @@
 import { useContext } from 'react';
 import { AppContext } from '../../../context';
+import robinImg from '../../../assets/Carrousel/robin.png'
+import closeButton from '../../../assets/close.svg'
 
 function ModalRobin() {
   const { setOpenModalRobin } = useContext(AppContext);
@@ -13,7 +15,7 @@ function ModalRobin() {
       <div className="modal-content">
         <img
           className="modal-content--close"
-          src="/src/assets/close.svg"
+          src={closeButton}
           alt="close"
           onClick={() => closeRobinModal()}
         />
@@ -25,7 +27,7 @@ function ModalRobin() {
           <div className="cards">
             <label htmlFor="radio-1" id="card-1" className="card">
               <img
-                src="/src/assets/Carrousel/robin.png"
+                src={robinImg}
                 alt="Robin"
               />
             </label>

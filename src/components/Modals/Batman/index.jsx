@@ -1,5 +1,8 @@
 import { useContext } from 'react';
 import { AppContext } from '../../../context';
+import closeButton from '../../../assets/close.svg'
+import batman from '../../../assets/Carrousel/batman.png'
+import batman2 from '../../../assets/Carrousel/batman2.png'
 
 function ModalBatman() {
   const { setOpenModalBatman } = useContext(AppContext);
@@ -13,7 +16,7 @@ function ModalBatman() {
       <div className="modal-content">
         <img
           className="modal-content--close"
-          src="/src/assets/close.svg"
+          src={closeButton}
           alt="close"
           onClick={() => closeBatmanModal()}
         />
@@ -25,7 +28,7 @@ function ModalBatman() {
           <div className="cards">
             <label htmlFor="radio-1" id="card-1" className="card">
               <img
-                src="/src/assets/Carrousel/batman.png"
+                src={batman}
                 alt="Batman"
               />
             </label>
@@ -37,7 +40,7 @@ function ModalBatman() {
             </label>
             <label htmlFor="radio-3" id="card-3" className="card">
               <img
-                src="/src/assets/Carrousel/batman2.png"
+                src={batman2}
                 alt="Batman"
               />
             </label>

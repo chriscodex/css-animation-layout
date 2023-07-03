@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { AppContext } from '../../../context';
+import closeButton from '../../../assets/close.svg'
 
 function ModalSpiderman() {
   const { setOpenModalSpiderman } = useContext(AppContext);
@@ -13,7 +14,7 @@ function ModalSpiderman() {
       <div className="modal-content">
         <img
           className="modal-content--close"
-          src="/src/assets/close.svg"
+          src={closeButton}
           alt="close"
           onClick={() => closeSpidermanModal()}
         />
