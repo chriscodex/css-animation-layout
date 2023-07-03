@@ -3,13 +3,10 @@ import './styles.css';
 function MainContent() {
   return (
     <div className="main-content">
-      <p>Diseña tu</p>
-      <h1>Súper Héroe</h1>
+      <p>Explora los</p>
+      <h1>Súper Héroes</h1>
       <p>
-        Aquí podrás dar rienda suelta a tu creatividad y construir tu propio
-        superhéroe LEGO personalizado. Nuestro sitio ofrece una amplia gama de
-        opciones exclusivas y los últimos lanzamientos de LEGO. ¡Prepárate para
-        sumergirte en el mundo de la construcción y la imaginación con LEGO!
+      Adéntrate en el fascinante universo de los Superhéroes LEGO de DC Comics y disfruta de increíbles imágenes que capturan la esencia de tus personajes favoritos. Explora la emblemática galería de héroes de DC en su versión LEGO y déjate maravillar por estas icónicas figuras en divertidas poses y escenas inolvidables.
       </p>
     </div>
   );
