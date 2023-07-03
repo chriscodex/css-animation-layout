@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { Loader } from './components/Loader';
 import { Navbar } from './components/Navbar';
+import { MainContent } from './components/MainContent';
 import { Footer } from './components/Footer';
 import { Modal } from './components/Modals/Modal';
 import { ModalSpiderman } from './components/Modals/Spiderman';
@@ -19,17 +20,7 @@ function App() {
         <section className="container">
           <Navbar />
 
-          <section className="main-content">
-            <p>Diseña tu</p>
-            <h1>Súper Héroe</h1>
-            <p>
-              Aquí podrás dar rienda suelta a tu creatividad y construir tu
-              propio superhéroe LEGO personalizado. Nuestro sitio ofrece una
-              amplia gama de opciones exclusivas y los últimos lanzamientos de
-              LEGO. ¡Prepárate para sumergirte en el mundo de la construcción y
-              la imaginación con LEGO!
-            </p>
-          </section>
+          <MainContent />
 
           <section className="side-content">
             <div></div>
