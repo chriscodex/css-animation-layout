@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { Loader } from './components/Loader';
+import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { Modal } from './components/Modals/Modal';
 import { ModalSpiderman } from './components/Modals/Spiderman';
@@ -16,25 +17,7 @@ function App() {
       <div className="page">
         {/* Main content */}
         <section className="container">
-          <nav className="navbar">
-            <div className="navbar-content">
-              <img src="/src/assets/lego.png" alt="lego-icon" />
-              <ul>
-                <li>
-                  <a href="/">EXCLUSIVOS</a>
-                </li>
-                <li>
-                  <a href="/">NUEVOS</a>
-                </li>
-                <li>
-                  <a href="/">GIFT CARD</a>
-                </li>
-                <li>
-                  <a href="/">FIND A STORE</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+          <Navbar />
 
           <section className="main-content">
             <p>Diseña tu</p>
