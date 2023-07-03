@@ -1,4 +1,4 @@
-<h1 align="center"><strong> LEGO DC Superheroes: React.js - Vite.js - TailwindCSS </strong></h1>
+<h1 align="center"><strong> LEGO DC Superheroes: React.js - Vite.js </strong></h1>
 
 <img src = "https://img.shields.io/badge/React.js-1c2c4c?style=flat&logo=react&logoColor=%2361DAFB"> <img src = "https://img.shields.io/badge/Javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E"> <img src = "https://img.shields.io/badge/Vite.js-%23646CFF.svg?style=flat&logo=vite&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white">
 
