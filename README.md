@@ -4,7 +4,7 @@
 
 ![Lego-DCSuperHeroes](https://github.com/chriscodex/css-animation-layout/assets/106860308/e812e6b8-8eaf-43dd-b9fa-5635fe8dbb0d)
 
-Este repositorio contiene una landing page interactiva de LEGO DC Superheroes utilizando React.js, Vite.js, CSS y HTML. Esta landing page presenta animaciones y una interfaz dinámica, los visitantes pueden explorar a los superhéroes de DC Comics en su versión LEGO a través de un carrusel 3D. El proyecto utiliza React.js para crear componentes reutilizables y Vite.js para optimizar el proceso de construcción.
+Este repositorio contiene una single page application interactiva de LEGO DC Superheroes utilizando React.js, Vite.js, CSS y HTML. Esta single page presenta animaciones y una interfaz dinámica, los visitantes pueden explorar a los superhéroes de DC Comics en su versión LEGO a través de un carrusel 3D. El proyecto utiliza React.js para crear componentes reutilizables y Vite.js para optimizar el proceso de construcción.
 
 ---
 
