@@ -5,6 +5,10 @@
   grid-area: aside;
 }
 
+.side-content__font {
+  box-shadow: 4px 0px 20px black;
+}
+
 .container .side-content p {
   transform: rotate(-90deg);
   font-size: 36px;
